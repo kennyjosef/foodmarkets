@@ -288,6 +288,8 @@ color: #000000;
     header{
         width: 100%;
         justify-content: space-around;
+        margin-bottom: 20px;
+        padding-top: 20px;
     }
     .nav{
         display: none;
@@ -323,7 +325,7 @@ color: #000000;
         margin-top: 10px;
     }
     .img{
-        width: 400px;
+        width: 350px;
         text-align: center;
     }
 
@@ -357,5 +359,10 @@ color: #000000;
     }
     .cartgoods{
         margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:443px) {
+    .article h1{
+        font-size: 35px;
     }
 }
