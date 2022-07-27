@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+}
+:root{
+    --buttonColorbackground: #034B06;        ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+   width: 80%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1064;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgba(42, 42, 42, 0.08);
+   
+}
+
+.hamburger img{
+    width: 90px;
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.line{
+    border-left: 2px solid #034B06;
+    width: 4px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px;
+    font-style: bold;
+    font-weight: 400;
+    cursor: pointer;
+}
+.logo{
+    padding-right: 30px;
+}
+button{
+    background-color: var(--buttonColorbackground);
+    font-family:"Noto Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: bold;
+    text-align: center;
+    line-height: 100%;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Noto Sans';
+}
+/* for hero section */
+.hero{
+    margin: auto;
+    width: 80%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.5);
+
+ }
+ .herobtn{
+    display: flex;
+    justify-content:flex-start;
+ }
+ 
+ .hero h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 150%;    
+ }
+ .herobtn .btn2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F5F5F5;
+    width: 200px;
+    color: #00000080;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 20px;
+ }
+ /* for products */
+ .products{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+ }
+ .title h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #034B06;
+    text-align: center; 
+ }
+ .title nav{
+    height: 22px;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 50px; */
+}
+ .title nav a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 30px;
+    font-style: bold;
+    font-weight: 400;
+    cursor: pointer;
+}
+.all a{
+    display: none;
+}
+hr{
+    background-color:#034B06;
+    width: 80%;
+    margin: auto;
+    
+
+}
+/* for cartItems */
+.cartItems{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.cartElements{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}.cartgoods{
+    height: 400px;
+    width: 250px;
+    box-shadow:  0px 1px 10px #00000052;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cartgoods img{
+    width: 230px;
+    margin-top: 10px;
+    
+}
+.cartgoods button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 16px;
+    width: 200px;
+    height: 40px;
+    background: #034B06;
+    border-radius: 8px;
+    margin: auto;
+
+}.cartgoods button img{
+    margin-left: 5px;
+    height: 22.5px; 
+    width: 22px;
+    border-radius: 0px;
+
+}
+.goodsname{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: auto;
+}
+.goodsname h4{  
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.goodsname  h5{
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: right;
+color: #000000;
+
+}
+.goodsprice{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.goodsprice span{
+    width: 10px;
+    height: 22px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.goodsprice p{
+    width: 79px;
+    height: 22px;
+    left: 416px;
+    top: 1538px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+}
+.center-button{
+    margin: auto;
+}
+.view{
+    width: 200px;
+    height: 40px;
+    background: white;
+    border: 2px solid #034B06;
+    border-radius: 8px;
+    color: #034B06;
+    margin: 30px 0px 30px 0;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.view p{
+    padding-right: 10px;
+}
+@media screen and (max-width:768px) {
+    header{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .nav{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .hamburger img{
+        display: flex;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .article h1{
+        font-size: 45px;
+        line-height: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .article p{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .herobtn{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding-top: 20px;
+    }
+    .herobtn .btn2{
+        margin-top: 10px;
+    }
+    .img{
+        width: 400px;
+        text-align: center;
+    }
+
+    .products nav{
+        display: none;
+    }
+    .all{
+        text-align: center;
+        margin:15px;
+    }
+    .all a{
+        text-align: center;
+        display: contents;
+        border: 1px solid black;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 30px;
+        font-style: bold;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .cartItems{
+        justify-content: center;
+    }
+    .cartElements{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 35px;
+    }
+    .cartgoods{
+        margin-bottom: 30px;
+    }
+}
