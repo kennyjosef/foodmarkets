@@ -11,18 +11,20 @@
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
-   width: 80%;
+    min-width: 80%;
+    min-height: 70px;
     margin: auto;
-    position: fixed;
+    padding-top: 20px;
+    position:fixed;
+    margin-top: 0;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1064;
     padding: 20px 0px 20px 0px;
-    margin-bottom: 30px;
     border-bottom: 2px solid rgba(42, 42, 42, 0.08);
    
 }
@@ -82,11 +84,12 @@ button{
 }
 /* for hero section */
 .hero{
+   
+    min-width: 80%;
     margin: auto;
-    width: 80%;
-    margin-top: 150px;
+    margin-top: 130px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .hero p{
     text-align: justify;
@@ -126,9 +129,12 @@ button{
  }
  /* for products */
  .products{
+    min-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
     margin-bottom: 30px;
-    position: relative;
  }
  .title h1{
     font-family: 'Noto Sans';
@@ -324,10 +330,14 @@ color: #000000;
 }
 @media screen and (max-width:768px) {
     header{
-        width: 80%;
-        justify-content: space-around;
-        margin-bottom: 20px;
+        width: 100%;
+        height: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+        top: 0;
         padding-top: 20px;
+        
+        
     }
     .nav{
         display: none;
@@ -337,9 +347,13 @@ color: #000000;
     }
     .hamburger img{
         display: flex;
+        width: 50px;
     }
     .hero{
+        width: 80%;
         flex-direction: column;
+        /* margin-top: 140px; */
+        border: 1px solid red;
     }
     .article h1{
         font-size: 45px;
@@ -362,9 +376,16 @@ color: #000000;
     .herobtn .btn2{
         margin-top: 10px;
     }
+    .content{
+        text-align: center;
+    }
     .img{
         width: 350px;
         text-align: center;
+    }
+    .products{
+        width: 80%;
+        border: 1px solid blue;
     }
 
     .products nav{
@@ -386,25 +407,36 @@ color: #000000;
         cursor: pointer;
     }
     .cartItems{
+        border: 1px solid green;
         justify-content: center;
+        align-items: center;
     }
     .cartElements{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 80%;
-        margin-left: 35px;
+        /* margin-left: 35px; */
     }
     .cartgoods{
         margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .show{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border: 1px solid brown;
+        width: 80%;
     }
     .showcase{
+        width: 80%;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
     .showImage{
@@ -412,14 +444,21 @@ color: #000000;
         text-align: center;
     }
     .showImage img{
-        width: 300px;
+        width: 250px;
     }
     .showWords{
         align-items: center;
         width: 80%;
-        font-weight: 300;
-        line-height: 100px;
     }
+    .showWords p{
+        text-align: center;
+        padding-top: 10px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        font-size: 20px;
+     }
     .market{
         text-align: center;
     }
