@@ -299,9 +299,20 @@ color: #000000;
     text-align: center;
     margin-bottom: 20px;
 }
+.market h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #034B06;
+    
+}
 .showImage{
    width: 50%;
    text-align: center;
+   margin-bottom: 30px;
 }
 .showWords{
     width: 50%;
@@ -317,17 +328,93 @@ color: #000000;
     font-style: normal;
     font-weight: 400;
     line-height: 200%;
-    font-size: 20px;
+    font-size: 18px;
  }
  .showWords button{
     margin-bottom: 30px;
     margin-left: 30px;
  }
-
-
 .showcase{
     display: flex;
 }
+/* for testimonial section */
+    .testimonial{
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .testimonial h4{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center; 
+        color: #034B06;
+    }
+    .person{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+    }
+    .arrowleft{
+        margin-top: 50px;
+        width: 50px;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .name{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+    .location{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .middle .star{
+        margin-top: 20px;
+    }
+    .middle h3{
+        padding-top: 30px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);     
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+       
+    }
+    .arrowright{
+        margin-top: 50px;
+        width: 50px;
+
+    }
 @media screen and (max-width:768px) {
     header{
         width: 100%;
@@ -452,11 +539,31 @@ color: #000000;
         font-style: normal;
         font-weight: 400;
         line-height: 120%;
-        font-size: 20px;
+        font-size: 16px;
         width: 100%;
+     }
+     .showWords button{
+        margin-right: 15px;
      }
     .market{
         text-align: center;
+    }
+    .testimonial{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .left, .right{
+        display: none;
+    }
+    .middle h3{
+        padding-top: 30px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);     
     }
 }
 @media screen and (max-width:443px) {
