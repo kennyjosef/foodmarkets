@@ -415,6 +415,124 @@ color: #000000;
         width: 50px;
 
     }
+    /* for footer */
+    .footer{
+        width: 100%;
+        background: #034B06;
+        margin-top: 40px;
+    }
+    .normal{
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+    .footerlogo{
+        width: 99.99px;
+        height: 70px;
+        margin-bottom: 30px;
+    }
+    .footerimg {
+        height: 32px;
+        display: flex; 
+        align-items: flex-start;
+        justify-content: space-around;
+        padding-right: 150px;
+     
+     }
+    .holder{
+        display: flex;
+        flex-direction: column;
+    }
+    .holder  h4{
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    .footitem{
+        width: 30%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footitem p{
+            font-family: 'Noto Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            width: 276px;
+            height: 96px;
+            color: #FFFFFF;
+            margin-bottom: 80px;
+        }
+    .footitems{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    ul li{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        padding-bottom: 13px;
+        color: #FFFFFF;
+        cursor: pointer;
+        list-style-type: none;
+    }
+    .menubtn1{
+        width: 249px;
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #072D09;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+        padding-left: 20px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    .menubtn2{
+        width: 249px;
+        height: 50px;
+        background: #072D09;
+        border-radius: 8px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+    form p{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        padding-bottom: 13px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
 @media screen and (max-width:768px) {
     header{
         width: 100%;
@@ -564,6 +682,41 @@ color: #000000;
         line-height: 20px;
         text-align: center;
         color: rgba(0, 0, 0, 0.5);     
+    }
+    .footitem{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footitems{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .normal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .holder{
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid white;
+    }
+    .holder h4{
+        padding: 5px;
+    }
+    form{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .footerimg{
+        justify-content: space-around;
+        /* align-items: center; */
     }
 }
 @media screen and (max-width:443px) {
