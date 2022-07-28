@@ -427,20 +427,20 @@ color: #000000;
         width: 80%;
     }
     .showcase{
-        width: 80%;
+        width: 100%;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
     .showImage{
-        width: 80%;
+        width: 100%;
         text-align: center;
     }
     .showImage img{
         width: 250px;
     }
     .showWords{
-        width: 80%;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
