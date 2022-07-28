@@ -446,7 +446,7 @@ color: #000000;
         align-items: center;
     }
     .showWords p{
-        text-align: justify;
+        text-align: center;
         padding-top: 10px;
         font-family: 'Noto Sans';
         font-style: normal;
