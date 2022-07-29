@@ -67,10 +67,12 @@ form input{
 }
 .under2{
     display: flex;
-    justify-content: space-between;
     align-items: center;    
 }
-.under p{
+#check{
+    width: 20px;
+}
+.p{
     font-family: 'Rufina';
     font-style: normal;
     font-weight: 400;
@@ -79,7 +81,12 @@ form input{
     color: #1E510C;    
 }
 .forget{
-    text-decoration: underline 1px solid #1E510C;;
+    text-decoration: underline 1px solid #1E510C;
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
 }
 .submit{
     background: #034B06;
@@ -130,14 +137,6 @@ span{
     text-decoration: underline;
     font-weight: 500;
 }
-.break{
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: space-between;
-}
-.break input{
-    width: 180px;
-}
 @media screen and (max-width:768px) {
     .logo{
         text-align: center;
@@ -149,12 +148,17 @@ span{
     .container{
         width: 100%;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         margin: auto;
         margin-top: 0;
     }
+    .item{
+        width: 80%;
+        margin: auto;
+        
+    }
     .item1{
-        width: 100%;
         padding-left: 0;
         justify-content: center;
         align-items: center;
@@ -172,12 +176,9 @@ span{
      .submit, button{
         width: 260px;
      }
-     .break{
-        flex-direction: column;
-        margin-bottom: 20px;
-     }
-     .break input{
+     .under{
         width: 260px;
+        justify-content: space-between;
      }
 }
 

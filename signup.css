@@ -10,10 +10,8 @@
 }
 .item1{
     background-color: white;
-    padding-left: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 .item2{
     background-image: url(./images/food.png);
@@ -155,27 +153,35 @@ span{
         margin: auto;
         margin-top: 0;
     }
+    .item{
+        width: 80%;
+        margin: auto;
+        
+    }
     .item1{
-        /* width: 100%; */
         padding-left: 0;
         justify-content: center;
         align-items: center;
-        /* height: 49px; */
+       
     }
     .item2{
         display: none;
     }
     form{
         width: 260px;
+        margin-left: 15px;
     }
      form input{
         width: 240px;
         padding-left: 0;
      }
      .submit, button{
-        width: 240px;
+        width: 250px;
      }
-     .break{
+    button{
+        text-align: center;
+    }
+    .break{
         flex-direction: column;
         margin-bottom: 20px;
      }
