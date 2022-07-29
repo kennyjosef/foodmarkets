@@ -1,0 +1,166 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
+.item{
+    width: 50%;
+}
+.item1{
+    background-color: white;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.item2{
+    background-image: url(./images/food.png);
+    background-size: cover;
+}
+.login h3{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #070807;   
+}.login p{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BDC7BD;
+    
+}
+form{
+    width: 445px;
+}
+form label{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BDC7BD;    
+}
+form input{
+    width: 427px;
+    height: 50px;
+    border: 1px solid #070807;
+    border-radius: 5px;
+    color: black;
+    padding-left: 15px;
+    font-size: 16px;
+}
+#email{
+    margin-bottom: 20px;
+}
+.under{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.under2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.under p{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1E510C;    
+}
+.forget{
+    text-decoration: underline 1px solid #1E510C;;
+}
+.submit{
+    background: #034B06;
+    border: 1px solid #034B06;
+    border-radius: 5px;
+    width: 445px;
+    height: 50px;
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 445px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+.button h5{
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 20px;
+}
+.center{
+    text-align: center;
+}
+.center p{
+    cursor: pointer;
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1E510C;    
+}
+span{
+    text-decoration: underline;
+    font-weight: 500;
+}
+@media screen and (max-width:768px) {
+    .logo{
+        text-align: center;
+        margin: 0px;
+    }
+    .login{
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-top: 0;
+    }
+    .item1{
+        padding-left: 0;
+    }
+    .item2{
+        display: none;
+    }
+    form{
+        width: 300px;
+    }
+     form input{
+        width: 280px;
+     }
+     .submit, button{
+        width: 300px;
+     }
+     
+}
+

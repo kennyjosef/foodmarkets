@@ -599,7 +599,6 @@ color: #000000;
     .all a{
         text-align: center;
         display: contents;
-        /* border: 1px solid black; */
         text-decoration: none;
         font-size: 20px;
         padding: 30px;
@@ -684,7 +683,7 @@ color: #000000;
         color: rgba(0, 0, 0, 0.5);     
     }
     .footitem{
-        width: 100%;
+        width: 8 0%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -704,7 +703,7 @@ color: #000000;
     .holder{
         justify-content: center;
         align-items: center;
-        border-bottom: 1px solid white;
+
     }
     .holder h4{
         padding: 5px;
@@ -715,8 +714,7 @@ color: #000000;
         margin-bottom: 30px;
     }
     .footerimg{
-        justify-content: space-around;
-        /* align-items: center; */
+        display: none;
     }
 }
 @media screen and (max-width:443px) {
