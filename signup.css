@@ -54,6 +54,7 @@ form input{
     color: black;
     padding-left: 15px;
     font-size: 16px;
+    outline: none;
 }
 
 .submit{
@@ -152,7 +153,7 @@ span{
     }
      form input{
         width: 240px;
-        padding-left: 0;
+        padding-left: 15px;
      }
      .submit, button{
         width: 250px;
