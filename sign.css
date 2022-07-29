@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     width: 80%;
-    height: 700px;
     margin: auto;
     margin-top: 30px;
 }
@@ -131,6 +130,14 @@ span{
     text-decoration: underline;
     font-weight: 500;
 }
+.break{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.break input{
+    width: 180px;
+}
 @media screen and (max-width:768px) {
     .logo{
         text-align: center;
@@ -164,6 +171,12 @@ span{
      .submit, button{
         width: 280px;
      }
-     
+     .break{
+        flex-direction: column;
+        margin-bottom: 20px;
+     }
+     .break input{
+        width: 260px;
+     }
 }
 
