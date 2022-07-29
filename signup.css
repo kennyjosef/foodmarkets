@@ -17,6 +17,8 @@
 }
 .item2{
     background-image: url(./images/food.png);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
     background-size: cover;
 }
 .login h3{
@@ -154,30 +156,31 @@ span{
         margin-top: 0;
     }
     .item1{
-        width: 100%;
+        /* width: 100%; */
         padding-left: 0;
         justify-content: center;
         align-items: center;
+        /* height: 49px; */
     }
     .item2{
         display: none;
     }
     form{
-        width: 280px;
+        width: 260px;
     }
      form input{
-        width: 260px;
+        width: 240px;
         padding-left: 0;
      }
      .submit, button{
-        width: 260px;
+        width: 240px;
      }
      .break{
         flex-direction: column;
         margin-bottom: 20px;
      }
      .break input{
-        width: 260px;
+        width: 240px;
      }
 }
 
