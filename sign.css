@@ -87,6 +87,7 @@ form input{
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
+    color:  #1E510C;
 }
 .submit{
     background: #034B06;
@@ -112,7 +113,7 @@ button{
     border: 1px solid black;
     background-color: white;
 }
-.button h5{
+button p{
     font-family: 'Rufina';
     font-style: normal;
     font-weight: 400;
@@ -179,6 +180,7 @@ span{
      .under{
         width: 260px;
         justify-content: space-between;
+        margin-bottom: 0px;
      }
 }
 
