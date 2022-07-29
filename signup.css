@@ -56,6 +56,12 @@ form input{
     font-size: 16px;
     outline: none;
 }
+ ::placeholder{
+    color: #034B06;
+    width: 40px;
+    /* height: 300px; */
+    border-right: 1px solid #034B06;
+}
 
 .submit{
     background: #034B06;

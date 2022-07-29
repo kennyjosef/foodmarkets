@@ -17,6 +17,8 @@
 }
 .item2{
     background-image: url(./images/food.png);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
     background-size: cover;
 }
 .login h3{
@@ -59,6 +61,7 @@ form input{
 #email{
     margin-bottom: 20px;
 }
+
 .under{
     display: flex;
     justify-content: space-between;

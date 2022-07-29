@@ -149,26 +149,36 @@ button{
     height: 22px;
     width: 80%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
     /* margin-top: 50px; */
 }
  .title nav a{
     text-decoration: none;
     font-size: 16px;
-    padding: 30px;
+    padding-bottom: 10px;
     font-style: bold;
     font-weight: 400;
     cursor: pointer;
 }
+.title nav{
+    border-bottom: 1px solid rgba(3, 75, 6, 0.5);
+
+}
+.bold a{
+    background: #034B06;
+    border-radius: 8px 8px 0px 0px;
+
+}
+
 .all a{
     display: none;
 }
-hr{
+/* hr{
     background-color:#034B06;
     width: 80%;
     margin: auto;
-    
-
-}
+} */
 /* for cartItems */
 .cartItems{
     width: 80%;
