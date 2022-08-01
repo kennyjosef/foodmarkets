@@ -144,6 +144,7 @@ button{
     line-height: 44px;
     color: #034B06;
     text-align: center; 
+    margin-bottom: 30px;
  }
  .title nav{
     height: 22px;
@@ -151,6 +152,7 @@ button{
     margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
     /* margin-top: 50px; */
 }
  .title nav a{
@@ -174,15 +176,11 @@ button{
 .all a{
     display: none;
 }
-/* hr{
-    background-color:#034B06;
-    width: 80%;
-    margin: auto;
-} */
+
 /* for cartItems */
 .cartItems{
-    width: 80%;
-    margin: auto;
+    /* width: 80%; */
+    /* margin: auto; */
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -191,19 +189,32 @@ button{
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
-}.cartgoods{
+}
+.cartgoods{
     height: 400px;
     width: 250px;
     box-shadow:  0px 1px 10px #00000052;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    padding-bottom: 20px;
 }
-.cartgoods img{
+.goods3, .goods6{
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.name{
     width: 230px;
+}
+  
+.goods3 img, .goods4 img, .goods5 img{
+    width: 200px;
     margin-top: 10px;
-    
+}
+.goods6 img{
+    width: 200px;
+
 }
 .cartgoods button{
     display: flex;
@@ -228,7 +239,7 @@ button{
     display: flex;
     justify-content: space-between;
     width: 200px;
-    margin: auto;
+    margin:5px auto 0px auto;
 }
 .goodsname h4{  
     font-family: 'Noto Sans';
@@ -255,20 +266,17 @@ color: #000000;
     align-items: center;
 }
 .goodsprice span{
-    width: 10px;
+     width: 10px;
     height: 22px;
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    color: #000000;
+    color: #000000; 
 }
 .goodsprice p{
-    width: 79px;
-    height: 22px;
-    left: 416px;
-    top: 1538px;
+    padding-right: 10px;
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
@@ -300,6 +308,16 @@ color: #000000;
 .view p{
     padding-right: 10px;
 }
+.cartElements form{
+    display: flex;
+    width: 200px;
+}
+.pricing{
+    width: 200px;
+    margin: auto;
+}
+
+
 /* for showcase */
 .show{
     width:80%;
