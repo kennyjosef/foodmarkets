@@ -473,12 +473,14 @@ color: #000000;
         margin-bottom: 30px;
     }
     .footerimg {
-        height: 32px;
+        /* height: 32px; */
+        width: 200px;
         display: flex; 
-        align-items: flex-start;
-        justify-content: space-around;
-        padding-right: 150px;
-     
+        justify-content: space-between;     
+     }
+     .footerimg img{
+        width: 32px;
+        height: 30px;
      }
     .holder{
         display: flex;
