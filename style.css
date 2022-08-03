@@ -385,15 +385,22 @@ color: #000000;
         justify-content:space-around;
         align-items: center;
         margin-top: 30px;
+        position: relative;
     }
     .left{
         display: flex;
         flex-direction: column;
         height: 350px;
+
     }
     .arrowleft{
         margin-top: 50px;
         width: 50px;
+        position: absolute;
+        left: 40px;
+        top: 70px;
+        cursor: pointer;
+
     }
     .middle{
         display: flex;
@@ -432,15 +439,21 @@ color: #000000;
         text-align: center;
         color: rgba(0, 0, 0, 0.5);     
     }
+    
     .right{
         display: flex;
         flex-direction: column;
         height: 350px;
+
        
     }
     .arrowright{
         margin-top: 50px;
         width: 50px;
+        position: absolute;
+        right: 40px;
+        top: 70px;
+        cursor: pointer;
 
     }
     /* for footer */
