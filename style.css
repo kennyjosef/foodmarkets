@@ -22,20 +22,38 @@ header{
     left: 0;
     right: 0;
     z-index: 1064;
-    padding: 20px 0px 20px 0px;
+    padding:20px ;
+    /* padding: 20px 0px 20px 0px; */
     border-bottom: 2px solid rgba(42, 42, 42, 0.08);
+
    
 }
-
-.hamburger img{
-    width: 90px;
+.hamburger{
     display: none;
+    cursor: pointer;
 }
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+     width: 80%;
+
     
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .cart{
     display: flex;
@@ -151,7 +169,6 @@ button{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    /* margin-top: 50px; */
 }
  .title nav a{
     text-decoration: none;
@@ -190,11 +207,12 @@ button{
 }
 .cartgoods{
     height: 400px;
-    width: 250px;
+    width: 350px;
     box-shadow:  0px 1px 10px #00000052;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-bottom: 20px;
 }
 .goods3, .goods6{
@@ -204,6 +222,7 @@ button{
 }
 .name{
     width: 230px;
+    text-align: center;
 }
   
 .goods3 img, .goods4 img, .goods5 img{
@@ -220,7 +239,7 @@ button{
     justify-content: center;
     align-items: center;
     padding: 14px 16px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     background: #034B06;
     border-radius: 8px;
@@ -236,7 +255,8 @@ button{
 .goodsname{
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 300px;
+    padding-bottom: 10px;
     margin:5px auto 0px auto;
 }
 .goodsname h4{  
@@ -310,8 +330,8 @@ color: #000000;
     display: flex;
     width: 200px;
 }
-.pricing{
-    width: 200px;
+.cartgoods .pricing{
+    width: 300px;
     margin: auto;
 }
 
@@ -355,6 +375,8 @@ color: #000000;
     font-weight: 400;
     line-height: 200%;
     font-size: 18px;
+    width: 80%;
+
  }
  .showWords button{
     margin-bottom: 30px;
@@ -578,12 +600,15 @@ color: #000000;
     header{
         width: 100%;
         height: 100px;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         top: 0;
         padding-top: 20px;
-        
-        
+    }
+    .container{
+        width: 100%;
+        padding:30px;
+        justify-content: space-between;
     }
     .nav{
         display: none;
@@ -591,10 +616,13 @@ color: #000000;
     .desktop{
         display: none;
     }
-    .hamburger img{
+    .hamburger{
+        display: block;
+    }
+    /* .hamburger img{
         display: flex;
         width: 50px;
-    }
+    } */
     .hero{
         width: 80%;
         flex-direction: column;
@@ -659,11 +687,22 @@ color: #000000;
         width: 80%;
     }
     .cartgoods{
+        width: 250PX;
         margin-bottom: 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .cartgoods .pricing{
+        width: 200px;
+        margin: auto;
+    }
+    .goodsname{
+        width: 200px;
+    }
+    .cartgoods button{
+        width: 200px;
     }
     .show{
         display: flex;
